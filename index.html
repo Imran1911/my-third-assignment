@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+
+</head>
+<body>
+    <header>
+        <!-- navbar -->
+        <nav>
+            <!-- container-div -->
+            <div class=" text-[#FFF;] border-0 rounded-full flex justify-between items-center max-w-screen-xl mx-auto mt-12 bg-[#f85559]" >
+                <div class="flex p-8  gap-7">
+                    <div>Home</div>
+                    <div>About Us</div>
+                    <div>Shop</div>
+                    <div>All Fruits</div>
+                </div>
+                <Div class="flex">
+                    <div><img src="./images/logo.png" alt="logo"></div>
+                    <div class="font-bold text-4xl">Fruit Burst</div>
+                </Div>
+                <div 
+                    
+                        <form class=" flex justify-between w-80 h-10 px-7 mr-14 bg-white rounded-full border-0> action="">
+                        
+                        <input type="text" placeholder="search here ">
+                    </form>
+                    
+                        
+                       
+                    
+                        <img src="./image2/Frame.png" alt="">
+
+
+                
+                         
+                        
+                        
+                </div>
+
+                  
+
+            </div>
+
+        </nav>
+
+        
+        
+    </header>
+    <main>
+      <!-- banner section starts -->
+      <div class="relative max-w-screen-xl mx-auto mt-14">
+      
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="./images/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./images/banner2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./images/banner3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./images/banner4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="-mt-[500px] text-white absolute ml-[40%] text-center gap-2">
+        <h1 class="text-4xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+        <p class="mt-2">We supply highly quality organic products</p> <br>
+        <button class="  w-auto h-auto bg-[#F85559;] p-5  rounded-[8px]">Shop Now</button>
+      </div>
+    </div>
+
+
+
+      <!-- section2 starts -->
+      <div class="flex justify-around items-center mt-20">
+        <div>
+            <h1 class="text-5xl font-extrabold mb-5 ">Deal of the day</h1>
+            <P> Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</P>
+        </div> 
+        <div class="flex gap-5 ">
+          <div>
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:29;"></span>
+            </span>
+            days
+          </div> 
+          <div>
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:15;"></span>
+            </span>
+            hours
+          </div> 
+          <div>
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:25;"></span>
+            </span>
+            min
+          </div> 
+          <div>
+            <span class="countdown font-mono text-4xl">
+              <span style="--value:08;"></span>
+            </span>
+            sec
+          </div>
+        </div>  
+      </div>
+      <div>
+        <!-- cards -->
+        <div class="flex justify-center gap-8">
+          <div class="items-center mt-8 w-80 border-2 border-inherit h-auto py-12 px-12 rounded-sm ">
+            <div class="ml-14">
+                <img src="./images/fruit6.png" alt=""> 
+
+            </div>
+            <div class="text-center">
+                <h1 class="font-extrabold text-2xl mt-8">12.90$ - 18.85$</h1>
+                <p class="mt-8">Apples</p>
+                <p class="font-extrabold text-[#F85559;] mt-4 ">Details</p>
+            </div>
+            <div class="rating rating-sm mt-4 ml-[70px]">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+            </div>
+        </div> 
+        <!-- second card -->
+        
+        <div class="items-center mt-8 w-80 border-2 border-inherit h-auto py-12 px-12 rounded-sm ">
+            <div class="ml-14">
+                <img src="./images/fruit4.png" alt=""> 
+
+            </div>
+            <div class="text-center">
+                <h1 class="font-extrabold text-2xl mt-8">12.90$ - 18.85$</h1>
+                <p class="mt-8">Red Dragon</p>
+                <p class="font-extrabold text-[#F85559;] mt-4 ">Details</p>
+            </div>
+            <div class="rating rating-sm mt-4 ml-[70px]">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+            </div>
+        </div> 
+        
+        <div class="items-center mt-8 w-80 border-2 border-inherit h-auto py-12 px-12 rounded-sm ">
+            <div class="ml-14">
+                <img src="./images/fruit9.png" alt=""> 
+
+            </div>
+            <div class="text-center">
+                <h1 class="font-extrabold text-2xl mt-8">12.90$ - 18.85$</h1>
+                <p class="mt-8">Banana</p>
+                <p class="font-extrabold text-[#F85559;] mt-4 ">Details</p>
+            </div>
+            <div class="rating rating-sm mt-4 ml-[70px]">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+            </div>
+        </div>    
+ 
+            
+    </div>
+
+        
+        
+        
+        <!-- section3 starts -->
+        <div>
+          <div class="text-white text-center">
+            <h1 class="font-extrabold">Meet the team section</h1>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+
+
+
+        </div>
+        
+        </main>
+    </body>
+</html>
